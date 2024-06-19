@@ -5,7 +5,7 @@ Complexity
 Time complexity:
 Space complexity:
 Code
-´´´bash
+```bash
 import pandas as pd
 
 def concatenateTables(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
@@ -25,7 +25,7 @@ df2 = pd.DataFrame({
     'name': ['Leo', 'Alex'],
     'age': [7, 7]
 })
-´´´bash
+```bash
 # Call the function to concatenate the DataFrames
 result = concatenateTables(df1, df2)
 
