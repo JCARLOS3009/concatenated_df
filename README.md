@@ -25,7 +25,7 @@ df2 = pd.DataFrame({
     'name': ['Leo', 'Alex'],
     'age': [7, 7]
 })
-```bash
+```
 # Call the function to concatenate the DataFrames
 result = concatenateTables(df1, df2)
 
